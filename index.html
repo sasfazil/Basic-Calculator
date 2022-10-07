@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calc.css">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
+    <script>
+        function darkmode(){
+        let dark = document.body;
+        dark.classList.toggle('mydark')
+}
+    </script>
 </head>
 <body>
     <div class="container">
+        <i class="fa-solid fa-power-off" onclick="darkmode()"></i>
         <h1>Basic Calculator</h1>
         <div class="row">
             <input type="text" class="input" placeholder="Calculator">
